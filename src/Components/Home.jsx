@@ -60,7 +60,7 @@ const Home = () => {
 
           <div className="flex flex-row gap-2">
             <Link
-              to="skills"
+              to="projects"
               smooth
               duration={500}
               data-aos="fade-up"
@@ -68,7 +68,7 @@ const Home = () => {
               data-aos-duration="2000"
               className="group rounded bg-gradient-to-r from-blue-600 to-cyan-600 w-1/4 pl-4 h-8 flex items-center justify-center cursor-pointer mt-5 mb-28"
             >
-              Skills
+              Projects
               <span className="px-3 group-hover:rotate-90 duration-300">
                 <MdOutlineArrowRightAlt size={25} />
               </span>
