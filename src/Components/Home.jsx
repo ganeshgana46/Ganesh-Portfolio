@@ -66,7 +66,7 @@ const Home = () => {
               data-aos="fade-up"
               data-aos-delay="1000"
               data-aos-duration="2000"
-              className="group rounded bg-gradient-to-r from-blue-600 to-cyan-600 w-1/4 pl-4 h-8 flex items-center justify-center cursor-pointer mt-5 mb-28"
+              className="group rounded bg-gradient-to-r from-blue-600 to-cyan-600 w-1/3 pl-4 h-8 flex items-center justify-center cursor-pointer mt-5 mb-28"
             >
               Projects
               <span className="px-3 group-hover:rotate-90 duration-300">
