@@ -23,14 +23,14 @@ const Projects = () => {
         src: shopeasy,
         desc: "This Full-Stack Shop e-commerce website is made using ReactJS, Tailwind CSS, Firebase....",
         demo: "https://magnificent-pothos-32a169.netlify.app",
-        code: "https://github.com/ganeshgana46/Redux-crud-app"
+        code: "https://github.com/ganeshgana46/shop-easy"
       },
       {
         id: 3,
         src: crud,
         desc: "A predictable state container to perform Create, Read, Update, and Delete operations on data.",
         demo: "https://luminous-bublanina-829e44.netlify.app",
-        code: "https://github.com/ganeshgana46/shop-easy"
+        code: "https://github.com/ganeshgana46/Redux-crud-app"
       },
   ]
 
