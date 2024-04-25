@@ -22,13 +22,8 @@ const Projects = () => {
         id: 2,
         src: shopeasy,
         desc: "This Full-Stack Shop e-commerce website is made using ReactJS, Tailwind CSS, Firebase....",
-<<<<<<< HEAD
         demo: "https://spectacular-griffin-31c339.netlify.app",
         code: "https://github.com/ganeshgana46/E-Bharat"
-=======
-        demo: "https://magnificent-pothos-32a169.netlify.app",
-        code: "https://github.com/ganeshgana46/shop-easy"
->>>>>>> b79741a1d4c44625bb549b78098fb2fe268414b3
       },
       {
         id: 3,
