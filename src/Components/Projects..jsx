@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react'
-import portfolio1 from "../assets/portfolio/portfolio1.jpg"
-import shopeasy from "../assets/portfolio/shopeasy.png";
-import crud from "../assets/portfolio/crud.jpeg";
+import edu from "../assets/portfolio/edu.png"
+import parking from "../assets/portfolio/parking.png";
+import nlp1 from "../assets/portfolio/nlp1.png";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -13,24 +13,21 @@ const Projects = () => {
   const Projects = () => [
     {
       id: 1,
-      src: portfolio1,
-      desc: "collection of work, that showcases a person's or entity's skills.",
-      demo: "https://tiny-brigadeiros-8f0d4f.netlify.app",
-      code: "https://github.com/ganeshgana46/Ganesh-Portfolio"
+      src: edu,
+      desc: "Capstone Project - Edu-Predict MVP Tool",
+      code: "https://github.com/venkatasurendram/EduPredict_MVP"
     },
     {
         id: 2,
-        src: shopeasy,
-        desc: "This Full-Stack Shop e-commerce website is made using ReactJS, Tailwind CSS, Firebase....",
-        demo: "https://spectacular-griffin-31c339.netlify.app",
-        code: "https://github.com/ganeshgana46/E-Bharat"
+        src: parking,
+        desc: "Automated Parking Status Tracker using Deep Learning",
+        code: "https://github.com/venkatasurendram/Automated-Parking-Status-Tracker-Using-Deep-Learning"
       },
       {
         id: 3,
-        src: crud,
-        desc: "A predictable state container to perform Create, Read, Update, and Delete operations on data.",
-        demo: "https://luminous-bublanina-829e44.netlify.app",
-        code: "https://github.com/ganeshgana46/Redux-crud-app"
+        src: nlp1,
+        desc: "Restaurant Menu Optimization using NLP",
+        code: "https://github.com/venkatasurendram/Restaurant-Menu-Optimization-using-NLP"
       },
   ]
 
@@ -52,9 +49,9 @@ const Projects = () => {
                 <p className='p-3 text-justify font-extralight'>{desc}</p>
                 <div className='flex items-center justify-center'>
                   
-                  <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-gradient-to-l from-gray-700 to-blue-900 rounded-md'>
+                  {/* <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-gradient-to-l from-gray-700 to-blue-900 rounded-md'>
                     <a href={demo}>Demo</a>
-                  </button>
+                  </button> */}
                   <button  className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-gradient-to-l from-purple-900 to-gray-700 rounded-md'>
                     <a href={code}>Code</a>
                   </button>

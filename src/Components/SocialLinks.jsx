@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/ganesh-pallam/",
+      href: "https://www.linkedin.com/in/venkata-surendra-mekala-00a08b231/",
       style: "rounded-tr-md",
     },
     {
@@ -22,7 +22,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/ganeshgana46",
+      href: "https://github.com/venkatasurendram",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:pallamganesh213@gmail.com",
+      href: "mailto:vsurendramekala@gmail.com",
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: "/Surendra-Resume.pdf",
       style: "rounded-br-md",
       download: true,
     },

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import heroImage from "../assets/heroImage.png";
+import photo from "../assets/photo.png";
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 import { Link } from "react-scroll";
 import AOS from "aos";
@@ -22,7 +22,7 @@ const Home = () => {
         <div className="flex flex-col justify-center">
           <div>
             <img
-              src={heroImage}
+              src={photo}
               alt="my profile"
               data-aos="fade-in"
               data-aos-duration="500"
@@ -34,14 +34,14 @@ const Home = () => {
             data-aos-duration="1000"
             className="text-4xl sm:text-6xl font-bold text-white"
           >
-            Ganesh |{" "}
+            Surendra |{" "}
             <span
               data-aos="fade-left"
               data-aos-easing="ease-in-sine"
               data-aos-duration="1000"
               className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black"
             >
-              Front-End Developer
+              Data Scientist
             </span>
           </h2>
           <p
@@ -50,9 +50,8 @@ const Home = () => {
             data-aos-duration="2000"
             className="text-gray-400 py-4 max-w-md w-full"
           >
-            I am a detail-oriented and creative Entry-Level front-end developer
-            with a strong foundation in HTML, CSS, and JavaScript and React JS.
-            My goal is to create beautiful and user-friendly websites.
+            I am a data scientist with a strong foundation in Python, AWS, Databases, Power Bi and Tableau.
+            My goal is to become a experienced data scientist.
           </p>
           {/* <p data-aos="fade-in" data-aos-delay="800" data-aos-duration="2000" className='text-gray-400 py-4 max-w-md'>
                                 Co-Lead GDSC RKMGEC, Creator @codewithbiki, Google Cloud Facilitator, In-Charge E-Cell RKMGEC...
@@ -76,7 +75,7 @@ const Home = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="mailto:pallamganesh213@gmail.com"
+              href="mailto:vsurendramekala@gmail.com"
               smooth
               duration={500}
               data-aos="fade-up"
@@ -92,7 +91,7 @@ const Home = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.linkedin.com/in/ganesh-pallam/"
+              href="https://www.linkedin.com/in/venkata-surendra-mekala-00a08b231/"
               smooth
               duration={550}
               data-aos="fade-up"
@@ -107,7 +106,7 @@ const Home = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/ganeshgana46"
+              href="https://github.com/venkatasurendram"
               smooth
               duration={600}
               data-aos="fade-up"

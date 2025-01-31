@@ -25,11 +25,8 @@ const About = () => {
           data-aos-duration="500"
           className="text-xl mt-5 ease-in fade-in"
         >
-          I'm Ganesh Pallam, an entry-level Graduate with a passion for software
-          development. I recently graduated with a B.Tech degree in Electronics
-          and Communication Engineering from Vel Tech University. Additionally,
-          I completed intensive training as a Front End Developer along with
-          Java Course at Digital Lync Institute.
+          I'm Surendra Mekala, an entry-level Graduate with a passion for Data Scientist. I recently graduated with a B.Tech degree in Electronics
+          and Communication Engineering from Vel Tech University. 
         </p>
         <br />
         <p
@@ -37,11 +34,9 @@ const About = () => {
           data-aos-duration="500"
           className="text-xl mt-5 ease-in fade-in"
         >
-          My career aspiration is to continue growing as a proficient software
-          developer, specializing in frontend technologies and user-centric
-          design. I aim to collaborate with dynamic teams and contribute
-          meaningfully to impactful projects that drive innovation and positive
-          change.
+          Aspiring Graduate Student in Data Science with practical expertise in data analytics, deep learning, and machine learning. Adept with 
+          Python, PowerBI, and AWS technologies, having led machine vision, NLP, and predictive modeling projects in the past. Strong 
+          problem-solving skills and technical expertise drive innovative solutions to real-world challenges.
         </p>
         {/* <br />
                 <p data-aos="fade-in" data-aos-duration="500" className='text-xl mt-5 ease-in  fade-in'>
@@ -53,7 +48,7 @@ const About = () => {
           className="mb-20 fade-in flex mx-auto items-center justify-center hover:scale-105 duration-300 rounded bg-gradient-to-b from-cyan-500 to-blue-500 lg:w-1/5 md:w-1/5 w-2/4 h-10 text-center cursor-pointer mt-10 gap-2"
         >
           <AiOutlineCloudDownload />
-          <a href="/resume.pdf" download>
+          <a href="/Surendra-Resume.pdf" download>
             Download Resume
           </a>
         </div>

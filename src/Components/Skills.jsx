@@ -1,15 +1,15 @@
 import React from "react";
 
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import javascript from "../assets/javascript.png";
-import reactImage from "../assets/react.png";
+import python from "../assets/python.png";
+import sql from "../assets/sql.png";
+import aws from "../assets/aws.png";
+import powerbi from "../assets/powerbi.png";
 import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
-import es6 from "../assets/es6.png";
-import java from "../assets/java.png";
+import agile from "../assets/agile.png";
+import waterfall from "../assets/waterfall.png";
+import jira from "../assets/jira.png";
 import git from "../assets/git.png";
-import materialUI from "../assets/materialUI.png";
+import snowflake from "../assets/snowflake.png";
 import AOS from "aos";
 import { useEffect } from "react";
 
@@ -20,32 +20,32 @@ const Skills = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
+      src: python,
+      title: "Python",
       style: "shadow-orange-500",
     },
     {
       id: 2,
-      src: css,
-      title: "CSS",
+      src: sql,
+      title: "SQL",
       style: "shadow-blue-500",
     },
     {
       id: 3,
-      src: javascript,
-      title: "JavaScript",
+      src: aws,
+      title: "AWS",
       style: "shadow-yellow-500",
     },
     {
       id: 4,
-      src: reactImage,
-      title: "React",
+      src: powerbi,
+      title: "Power BI",
       style: "shadow-blue-600",
     },
     {
       id: 5,
-      src: tailwind,
-      title: "Tailwind",
+      src: agile,
+      title: "Agile",
       style: "shadow-sky-400",
     },
     {
@@ -56,14 +56,14 @@ const Skills = () => {
     },
     {
       id: 7,
-      src: es6,
-      title: "ES6 +",
+      src: waterfall,
+      title: "Waterfall",
       style: "shadow-yellow-400",
     },
     {
       id: 8,
-      src: java,
-      title: "Java",
+      src: jira,
+      title: "Jira",
       style: "shadow-gray-400",
     },
     {
@@ -74,8 +74,8 @@ const Skills = () => {
     },
     {
       id: 10,
-      src: materialUI,
-      title: "Material UI",
+      src: snowflake,
+      title: "Snowflake",
       style: "shadow-blue-400",
     },
   ];
